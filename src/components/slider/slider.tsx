@@ -60,7 +60,7 @@ const Slider = () => {
                 </div>
                 <div className={styles.separator}></div>
                 <div className={styles.sliderText}>
-                    <h2>Filmación dron</h2>
+                    <h2>Filmación con dron y gimbal</h2>
                 </div>
 
                 <div className={styles.separator}></div>
@@ -117,7 +117,7 @@ const Slider = () => {
                 </div>
                 <div className={styles.separator}></div>
                 <div className={styles.sliderText}>
-                    <h2>Filmación dron</h2>
+                    <h2>Filmación con dron y gimbal</h2>
                 </div>
 
                 
