@@ -16,7 +16,7 @@
     align-items: center;
     max-width: 1300px;
     width: 100%;
-    padding: 0.5rem 2rem 0.5rem 2rem;
+    padding: 0.5rem 2rem;
 }
 
 .logo {
@@ -34,6 +34,7 @@
 }
 
 .navlink {
+    font-weight: 500;
     text-decoration: none;
     color: #333;
     transition: color 0.3s ease;
