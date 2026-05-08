@@ -37,7 +37,6 @@
 
 
 .heroTextSpanMin {
-    font-family: 'Oswald', sans-serif;
     font-size: 15px;
     margin: 0;
     color: #be1718;
@@ -77,8 +76,7 @@
 .heroTextSpanDown {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 300;
     color: #F2F2F1
 

@@ -1,0 +1,55 @@
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.sliderContent {
+    display: flex;
+    gap: 2rem;
+    width: max-content;
+    align-items: center;
+    animation: scroll-left 50s linear infinite;
+    transition: transform 0.5s ease;
+}
+
+
+.sliderText {
+    display: flex;
+    align-items: center; /* Añadido para alinear verticalmente */
+    padding: 1rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sliderText h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.separator::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
