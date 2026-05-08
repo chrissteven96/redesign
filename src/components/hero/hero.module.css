@@ -1,8 +1,9 @@
 .hero {
+    margin-top: 120px;
+    display: flex;
     width: 100%;
-    margin: 0 auto;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
         /* Color de fondo oscuro */
     background-color: #0a0a0a; 
     
@@ -20,11 +21,78 @@
 
 .heroContent {
     width: 1300px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: aqua;
+
+   
+
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
 
 
+.heroTextSpanMin {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    color: #be1718;
+    line-height: 1;
+    letter-spacing: 5px;
+    padding: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
 
+.heroTextSpanMin::before {
+    content: ""; /* Obligatorio para que aparezca */
+    display: inline-block;
+    width: 20px;         /* Largo del guion */
+    height: 2px;         /* Grosor del guion */
+    background-color: #be1718; /* El color que quieras */
+    vertical-align: middle;
+    margin-right: 10px;  /* Espacio entre el guion y el texto */
+}
+.heroTextSpan {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 7.2rem;
+    font-weight: 900;
+    color: white;
+    line-height: 1;
+    letter-spacing: -10px;
+    text-transform: uppercase;
+
+}
+
+.heroTextRed {
+    color: #be1718;
+}
+
+.heroTextSpanDown {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #F2F2F1
+
+}
+
+.heroLogo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+/* background: radial-gradient(circle, rgba(255, 0, 0, 0.5) 0%, transparent 70%); */
+}
+
+.logoImage {
+    width: 85%;
+    height: auto;
 }
 
