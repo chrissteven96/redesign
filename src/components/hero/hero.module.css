@@ -7,7 +7,7 @@
     background: 
         linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-        linear-gradient(45deg, #000000 0%, #0a0a0a 80%, #be1718 120%);
+        linear-gradient(45deg, #0b0b0b 0%, #0b0b0b 80%, #be1718 120%);
     
     /* Definimos el tamaño de los cuadros de la cuadrícula */
     background-size: 65px 65px, 65px 65px, 100% 100%;

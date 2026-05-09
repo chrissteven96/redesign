@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import NavBar from './components/navbar/navbar'
 import Hero from './components/hero/hero'
 import Slider from './components/slider/slider'
+import Services from './components/services/services'
 
 const App = () => {
   
@@ -15,6 +16,7 @@ const App = () => {
         <main style={{ flex: 1 }}>
           <Hero />
           <Slider />
+          <Services />
         </main>
       </div>
     </Router>
