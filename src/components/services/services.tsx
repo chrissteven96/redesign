@@ -18,29 +18,32 @@ const Services = () => {
                 <div className={styles.servicesGrid}>
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
                             <img src="/diseño1.png" alt="Diseño Gráfico" className={styles.serviceCardPhoto} />
-                        </div>
-                        <div className={styles.serviceCardText}>
-                            <h3>Diseño Gráfico</h3>
-                            <p>Asesoramiento 100% personalizado</p>
-                        </div>
-                    </div>
-                    <div className={styles.serviceCard}>
-                        <div className={styles.serviceCardImg}>
-                            <img src="/icons/icon2.png" alt="Icon 2" />
-                        </div>
-                        <div className={styles.serviceCardText}>
-                            <h3>Service 2</h3>
-                            <p>Description 2</p>
+                            <div className={styles.serviceCardText}>
+                                <h3>Diseño Gráfico</h3>
+                                <p>Asesoramiento 100% personalizado.</p>
+                            </div>
                         </div>
                     </div>
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
-                            <img src="/icons/icon3.png" alt="Icon 3" />
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/gigan1.png" alt="Gigan" className={styles.serviceCardPhoto} />
+                            <div className={styles.serviceCardText}>
+                                <h3>Gigantografía</h3>
+                                <p>Lona, vinil, microperforada y más.</p>
+                            </div>
                         </div>
-                        <div className={styles.serviceCardText}>
-                            <h3>Service 3</h3>
-                            <p>Description 3</p>
+                    </div>
+                    <div className={styles.serviceCard}>
+                        <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/rotulo.png" alt="Icon 3" />
+                            <div className={styles.serviceCardText}>
+                                <h3>Rótulos</h3>
+                                <p>Bastidores, cajas de luz, rótulos 3D.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
