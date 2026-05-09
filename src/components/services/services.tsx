@@ -11,11 +11,12 @@ const Services = () => {
                         <span>Todo lo que tu <br /> marca necesita</span>
                     </div>
                     <div className={styles.servicesTextRight}>
-                        <p>De la idea al impacto en la calle. Te acompañamos en cada paso del proceso.</p>
+                        <p>De la idea al impacto en la calle. <br /> Te acompañamos en cada paso del proceso.</p>
                     </div>
                 </div>
 
                 <div className={styles.servicesGrid}>
+
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
@@ -26,6 +27,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
@@ -36,16 +38,131 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/rotulo.png" alt="Icon 3" />
+                            <img src="/rotulo.png" alt="Rótulos" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Rótulos</h3>
                                 <p>Bastidores, cajas de luz, rótulos 3D.</p>
                             </div>
                         </div>
                     </div>
+
+                    
+                    <div className={styles.serviceCard}>
+                        <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/neon.png" alt="Neon" className={styles.serviceCardPhoto} />
+                            <div className={styles.serviceCardText}>
+                                <h3>Rótulos neón flex</h3>
+                                <p>Iluminación de alto impacto.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className={styles.serviceCard}>
+                        <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/display.png" alt="Display" className={styles.serviceCardPhoto} />
+                            <div className={styles.serviceCardText}>
+                                <h3>Display</h3>
+                                <p>Roll Up, stands, backings.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.serviceCard}>
+                        <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/señal.png" alt="Rótulos" className={styles.serviceCardPhoto} />
+                            <div className={styles.serviceCardText}>
+                                <h3>Señalética</h3>
+                                <p>Sintra, tool, acrílico y vidrio</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.serviceCard}>
+                        <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/imprenta.png" alt="Neon" className={styles.serviceCardPhoto} />
+                            <div className={styles.serviceCardText}>
+                                <h3>Imprenta</h3>
+                                <p>Tarjetas, volantes, carpetas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className={styles.serviceCard}>
+                        <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/branding.png" alt="Display" className={styles.serviceCardPhoto} />
+                            <div className={styles.serviceCardText}>
+                                <h3>Branding Vehicular</h3>
+                                <p>Autos, motos, camiones.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.serviceCard}>
+                        <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/inflable.png" alt="Rótulos" className={styles.serviceCardPhoto} />
+                            <div className={styles.serviceCardText}>
+                                <h3>Inflables</h3>
+                                <p>Llamadores, botargas, arcos, carpas</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.serviceCard}>
+                        <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/carpas.png" alt="Neon" className={styles.serviceCardPhoto} />
+                            <div className={styles.serviceCardText}>
+                                <h3>Carpas y banderines</h3>
+                                <p>Material publicitario para eventos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className={styles.serviceCard}>
+                        <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/ruleta.png" alt="Display" className={styles.serviceCardPhoto} />
+                            <div className={styles.serviceCardText}>
+                                <h3>Ruletas publicitarias</h3>
+                                <p>En pvc o en acrílico.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.serviceCard}>
+                        <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/sublimacion.png" alt="Rótulos" className={styles.serviceCardPhoto} />
+                            <div className={styles.serviceCardText}>
+                                <h3>Sublimación</h3>
+                                <p>Tazas,camisetas, llaveros, pulseras, etc</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.serviceCard}>
+                        <div className={styles.serviceCardImg}>
+                            <div className={styles.serviceCardOverlay}></div>
+                            <img src="/dron.png" alt="Rótulos" className={styles.serviceCardPhoto} />
+                            <div className={styles.serviceCardText}>
+                                <h3>Filmacion con dron y gimbal</h3>
+                                <p>Tomas aereas profesionales.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
                 </div>
             </div>
         </div>
