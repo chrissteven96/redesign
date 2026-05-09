@@ -1,10 +1,11 @@
 
-
 .services {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    background: linear-gradient(150deg, #be1718 -75%, #0a0a0a 20%);
+   
 }
 
 .servicesContent {
@@ -12,8 +13,9 @@
     display: flex;
     flex-direction: column;
     width: 1300px;
-    height: 100vh;
+    max-width: 100%;
     gap: 2rem;
+    margin-bottom: 50px;
 
 }
 

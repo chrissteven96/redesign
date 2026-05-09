@@ -17,6 +17,7 @@ const App = () => {
           <Hero />
           <Slider />
           <Services />
+          <Slider />
         </main>
       </div>
     </Router>
