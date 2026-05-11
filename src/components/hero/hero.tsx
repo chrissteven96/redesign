@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./hero.module.css"
-import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp, FaTelegram, FaLinkedin } from "react-icons/fa"
+import { FaFacebook, FaTiktok, FaWhatsapp, FaTelegram, FaLinkedin } from "react-icons/fa"
 
 const Hero = () => {
     return (

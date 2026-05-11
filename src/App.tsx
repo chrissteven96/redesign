@@ -7,6 +7,7 @@ import Slider from './components/slider/slider'
 import Services from './components/services/services'
 import AboutUs from './components/aboutus/aboutus'
 import Contact from './components/contact/contact'
+import Footer from './components/footer/footer'
 
 const App = () => {
   
@@ -14,15 +15,17 @@ const App = () => {
   return (
     <Router>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+       
         <NavBar />
         <main style={{ flex: 1 }}>
-          <Hero />
+          <div id="hero"><Hero /></div>
           <Slider />
-          <Services />
-          <Slider />
-          <AboutUs />
-          <Contact />
+          <div id="servicios"><Services /></div>
+          <div id="nosotros"><AboutUs /></div>
+          <div id="contacto"><Contact /></div>
+          <Footer />
         </main>
+        
       </div>
     </Router>
   )
