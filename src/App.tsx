@@ -5,6 +5,8 @@ import NavBar from './components/navbar/navbar'
 import Hero from './components/hero/hero'
 import Slider from './components/slider/slider'
 import Services from './components/services/services'
+import AboutUs from './components/aboutus/aboutus'
+import Contact from './components/contact/contact'
 
 const App = () => {
   
@@ -18,6 +20,8 @@ const App = () => {
           <Slider />
           <Services />
           <Slider />
+          <AboutUs />
+          <Contact />
         </main>
       </div>
     </Router>
