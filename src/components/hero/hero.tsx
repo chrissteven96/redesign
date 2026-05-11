@@ -37,7 +37,7 @@ const Hero = () => {
                             <FaTiktok className={styles.socialIcon} />
                         </a>
                         {/* <FaInstagram className={styles.socialIcon} /> */}
-                        <a href="https://wa.me/5493517100000" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/593962725180?text=Hola%20RE%20Design%20quiero%20cotizar%20uno%20de%20sus%20servicios" target="_blank" rel="noopener noreferrer">
                             <FaWhatsapp className={styles.socialIcon} />
                         </a>
                         <a href="https://t.me/redesignarg" target="_blank" rel="noopener noreferrer">

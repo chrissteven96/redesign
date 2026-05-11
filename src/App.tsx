@@ -8,6 +8,7 @@ import Services from './components/services/services'
 import AboutUs from './components/aboutus/aboutus'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
+import Clients from './components/clients/clients'
 
 const App = () => {
   
@@ -19,8 +20,10 @@ const App = () => {
         <NavBar />
         <main style={{ flex: 1 }}>
           <div id="hero"><Hero /></div>
-          <Slider />
+         
+          <Clients />
           <div id="servicios"><Services /></div>
+           <Slider />
           <div id="nosotros"><AboutUs /></div>
           <div id="contacto"><Contact /></div>
           <Footer />

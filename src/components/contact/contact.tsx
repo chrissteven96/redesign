@@ -13,10 +13,15 @@ const Contact = () => {
                 </div>
 
             <div className={styles.buttonSpace}>
-                <a href="" className={styles.button1}> <FaPhone /> 0987654321</a>
-                <a href="" className={styles.button2}> <FaEnvelope /> Escribenos</a>
+                <a href="https://wa.me/593962725180?text=Hola%20RE%20Design%20quiero%20cotizar%20uno%20de%20sus%20servicios" target="_blank" rel="noopener noreferrer" className={styles.button1}> <FaPhone /> 0962725180</a>
+                <a href="mailto:re_design@outlook.es" target="_blank" rel="noopener noreferrer" className={styles.button2}> <FaEnvelope /> Escribenos</a>
 
             </div>
+
+            <div className={styles.qr}>
+                <img src="/qr.png" alt="QR" />
+            </div>
+                
             </div>
         </div>
         </React.Fragment>
