@@ -38,7 +38,7 @@
 
 .textContent p {
     margin: 0;
-    color: white;
+    color: #b1b1b1;
     font-size: 1.2rem;
 }
 
@@ -61,7 +61,7 @@
     padding: 2rem;
     border: 2px solid rgba(190, 23, 24, 0.3);
     font-size: 0.9rem;
-    color: white;
+    color: #b1b1b1;
     
 }
 

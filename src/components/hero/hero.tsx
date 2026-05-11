@@ -22,8 +22,8 @@ const Hero = () => {
                     </div>
                     <div className={styles.heroTextItem}>
                         <div className={styles.buttonSpace}>
-                            <a href="#contacto" className={styles.button}>Solicitar Cotización</a>
-                            <a href="#servicios" className={styles.button}>Ver servicios</a>
+                            <a href="#contacto" className={styles.button1}>Solicitar Cotización</a>
+                            <a href="#servicios" className={styles.button2}>Ver servicios</a>
                         </div>
                     </div>
                    </div>
