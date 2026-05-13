@@ -110,11 +110,11 @@
     top: 0;
     right: -100%;
     width: 80%;
-    max-width: 200px;
+    max-width: 300px;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(16px) saturate(120%);
-    -webkit-backdrop-filter: blur(16px) saturate(120%);
+    background: #0b0b0b;
+    /* backdrop-filter: blur(16px) saturate(120%);
+    -webkit-backdrop-filter: blur(16px) saturate(120%); */
     padding: 6rem 2rem 2rem;
     transition: right 0.3s ease-in-out;
     z-index: 999;
@@ -123,35 +123,39 @@
     gap: 1rem;
  
     border: 1px solid rgba(255, 255, 255, 0.1); 
-    box-shadow: 0 8px 30px rgba(255, 122, 26, 0.1);
+    /* box-shadow: 0 8px 30px rgba(255, 122, 26, 0.1); */
   } 
 
    .mobileMenu.open {
     right: 0;
   }
 
-   .mobileMenu .navLink {
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 0.5rem 1rem;
+   .mobileMenu .hamburgerLink {
+    border: 1px solid rgba(192, 23, 24, 0.4);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem 1rem;
     display: block;
     border-left: 3px solid transparent;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
     transition: all 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
   }
 
-    .mobileMenu .navLink:hover {
-    color: #eb5d3a;
-    border-left: 3px solid #eb5d3a;
+    .mobileMenu .hamburgerLink:hover {
+    color: #b1b1b1;
+    /* border-left: 3px solid #b1b1b1; */
+    
     padding-left: 1.5rem;
   }
   
 
-    .mobileMenu .ctaButton {
-    margin-top: 1rem;
-    width: 100%;
-    justify-content: center;
-    display: none; /* Oculto por defecto, se mostrará solo en móviles */
-  }
 
   @media (max-width: 768px) {
     .menu {
@@ -166,6 +170,7 @@
     .button {
       display: none;
     }
+
 
   
   }

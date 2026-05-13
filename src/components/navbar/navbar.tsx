@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import styles from './navbar.module.css'
-import { FaArrowRight } from 'react-icons/fa';
+import { FaAngleRight, FaArrowRight } from 'react-icons/fa';
 
 
 const NavBar = () => {
@@ -110,17 +110,17 @@ const NavBar = () => {
             </div>
 
             <div className={`${styles.mobileMenu} ${isMenuOpen ? styles.open : ''}`}>
-                <a href="#hero" className={styles.navlink} onClick={(e) => { e.preventDefault(); scrollToSection('hero'); closeMenu(); }}>
+                <a href="#hero" className={styles.hamburgerLink} onClick={(e) => { e.preventDefault(); scrollToSection('hero'); closeMenu(); }}>
                     Inicio
                 </a>
-                <a href="#servicios" className={styles.navlink} onClick={(e) => { e.preventDefault(); scrollToSection('servicios'); closeMenu(); }}>
-                    Servicios
+                <a href="#servicios" className={styles.hamburgerLink} onClick={(e) => { e.preventDefault(); scrollToSection('servicios'); closeMenu(); }}>
+                    Servicios <FaAngleRight />
                 </a>
-                <a href="#nosotros" className={styles.navlink} onClick={(e) => { e.preventDefault(); scrollToSection('nosotros'); closeMenu(); }}>
-                    Nosotros
+                <a href="#nosotros" className={styles.hamburgerLink} onClick={(e) => { e.preventDefault(); scrollToSection('nosotros'); closeMenu(); }}>
+                    Nosotros <FaAngleRight />
                 </a>
-                <a href="#contacto" className={styles.navlink} onClick={(e) => { e.preventDefault(); scrollToSection('contacto'); closeMenu(); }}>
-                    Contacto
+                <a href="#contacto" className={styles.hamburgerLink} onClick={(e) => { e.preventDefault(); scrollToSection('contacto'); closeMenu(); }}>
+                    Contacto <FaAngleRight />
                 </a>
             </div>
 
