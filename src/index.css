@@ -86,7 +86,7 @@ body {
   min-width: 320px;
   width: 100%;
   font-family: 'Google Sans', sans-serif;
-  
+  overflow-x: hidden;
 }
 
 h1,

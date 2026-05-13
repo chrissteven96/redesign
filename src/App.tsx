@@ -17,8 +17,8 @@ const App = () => {
     <Router>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
        
-        <NavBar />
-        <main style={{ flex: 1 }}>
+        <NavBar  />
+        <main style={{ flex: 1, paddingTop: '80px'  }}>
           <div id="hero"><Hero /></div>
          
           <Clients />

@@ -1,5 +1,5 @@
 .navbarContainer {
-    width: 100%;
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -73,7 +73,8 @@
     border: none;
     cursor: pointer;
     padding: 0;
-    z-index: 10;
+    z-index: 1001;
+    position: relative;
 }
 
   .hamburgerMenu:focus {
@@ -89,6 +90,18 @@
     position: relative;
     transform-origin: 1px;
   }
+
+  .hamburgerMenu.open .hamburgerLine:first-child {
+    transform: rotate(45deg);
+  }
+
+  .hamburgerMenu.open .hamburgerLine:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburgerMenu.open .hamburgerLine:nth-child(3) {
+    transform: rotate(-45deg);
+  }
   
 
    /* Mobile Menu */
@@ -97,14 +110,14 @@
     top: 0;
     right: -100%;
     width: 80%;
-    max-width: 300px;
+    max-width: 200px;
     height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(16px) saturate(120%);
     -webkit-backdrop-filter: blur(16px) saturate(120%);
     padding: 6rem 2rem 2rem;
     transition: right 0.3s ease-in-out;
-    z-index: 900;
+    z-index: 999;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -117,6 +130,22 @@
     right: 0;
   }
 
+   .mobileMenu .navLink {
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+  }
+
+    .mobileMenu .navLink:hover {
+    color: #eb5d3a;
+    border-left: 3px solid #eb5d3a;
+    padding-left: 1.5rem;
+  }
+  
+
     .mobileMenu .ctaButton {
     margin-top: 1rem;
     width: 100%;
@@ -125,47 +154,31 @@
   }
 
   @media (max-width: 768px) {
-    .navbar {
-      width: 100%;
-    }
     .menu {
       display: none;
-
     }
 
     .hamburgerMenu {
+      margin-right: 1rem;
       display: flex;
     }
 
-    .navbar {
-      max-width: 100%;
-      width: 100%;
+    .button {
+      display: none;
     }
 
-
+  
   }
   
   @media (max-width: 480px) {
-   .navbar {
-    width: 100%;
-   }
-    .navbarContainer {
-        padding: 0;
-    }
-
-    .hamburgerMenu {
-        display: flex;
-    }
-
     .navbar {
-        padding: 1rem;
-        width: 100%;
+        max-width: 100%;
+        
+        
+    }
     
+    .mobileMenu {
+        width: 70%;
+        max-width: 200px;
     }
-
-    .button {
-        display: none;
-    }
-
   }
-  

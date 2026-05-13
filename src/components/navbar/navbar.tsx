@@ -24,15 +24,28 @@ const NavBar = () => {
         }
     };
 
+    const handleClickOutside = (event: MouseEvent) => {
+        const target = event.target as Element;
+        const mobileMenu = document.querySelector(`.${styles.mobileMenu}`);
+        const hamburgerButton = document.querySelector(`.${styles.hamburgerMenu}`);
+        
+        if (isMenuOpen && mobileMenu && hamburgerButton && 
+            !mobileMenu.contains(target) && !hamburgerButton.contains(target)) {
+            setIsMenuOpen(false);
+        }
+    };
+
  window.addEventListener('resize', handleResize);
     window.addEventListener('scroll', handleScroll);
+    document.addEventListener('mousedown', handleClickOutside);
 
     // Limpiar los event listeners al desmontar el componente
     return () => {
       window.removeEventListener('resize', handleResize);
       window.removeEventListener('scroll', handleScroll);
+      document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, []);
+  }, [isMenuOpen]);
 
   // Cerrar el menú cuando se hace clic en un enlace
   const closeMenu = () => {
@@ -76,11 +89,6 @@ const NavBar = () => {
                         <a href="#contacto" className={styles.navlink} onClick={(e) => { e.preventDefault(); scrollToSection('contacto'); }}>Contacto</a>
                     </div>
 
-                    {/* Buton */}
-                    <div className={styles.button}>
-                        <a href="#contacto" className={styles.textButton} onClick={(e) => { e.preventDefault(); scrollToSection('contacto'); }}>Cotizar <FaArrowRight /> </a>
-                    </div>
-
                     {/* Hamburger Button - Mobile */}
                     <button 
                         className={`${styles.hamburgerMenu} ${isMenuOpen ? styles.open : ''}`} 
@@ -92,6 +100,12 @@ const NavBar = () => {
                         <span className={styles.hamburgerLine}></span>
                         <span className={styles.hamburgerLine}></span>
                     </button> 
+                    {/* Buton */}
+                    <div className={styles.button}>
+                        <a href="#contacto" className={styles.textButton} onClick={(e) => { e.preventDefault(); scrollToSection('contacto'); }}>Cotizar <FaArrowRight /> </a>
+                    </div>
+
+
                 </nav>
             </div>
 

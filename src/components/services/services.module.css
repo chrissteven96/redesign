@@ -12,8 +12,10 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    width: 1300px;
-    max-width: 100%;
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 2rem;
+    box-sizing: border-box;
     gap: 2rem;
     margin-bottom: 50px;
 
@@ -127,7 +129,7 @@
 
     .services {
         width: 100%;
-        padding: 0 2rem;
+        
     }
 
     .servicesContent {
@@ -139,12 +141,16 @@
         justify-content: space-around;
     }
 
+    .servicesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 
 }
 
 @media (max-width: 480px) {
 
-    .services {
+    .servicesContent {
         padding: 0 1rem;
     }
     
