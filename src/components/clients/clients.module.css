@@ -81,3 +81,34 @@
         transform: translateX(-50%);
     }
 }
+
+
+@media (max-width: 768px) {
+    .slider {
+        margin-bottom: 2rem;
+    }
+    
+
+    
+    .slider h1 {
+        font-size: 3rem;
+    }
+    
+    .clientImage {
+        height: 40px;
+    }
+    
+    .sliderContent {
+        gap: 1rem;
+    }
+    
+    .sliderImg {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider h1 {
+        font-size: 2rem;
+    }
+}

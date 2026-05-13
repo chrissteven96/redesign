@@ -123,3 +123,38 @@
 }
 
 
+@media (max-width: 768px) {
+
+    .services {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .servicesContent {
+        width: 100%;
+    }
+
+    .servicesTextRight {
+        flex: 1;
+        justify-content: space-around;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+    .services {
+        padding: 0 1rem;
+    }
+    
+    .servicesText {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .servicesGrid {
+        grid-template-columns: 1fr;
+    }
+}

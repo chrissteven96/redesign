@@ -73,3 +73,22 @@
     text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+    .aboutUsContent {
+        flex-direction: column;
+    }
+    
+    .aboutUsContent {
+        padding: 0 2rem;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutUsContent {
+        padding: 0 1rem;
+        gap: 1rem;
+    }
+}
+    
+

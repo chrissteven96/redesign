@@ -74,3 +74,23 @@
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .footerContent {
+        width: 100%;
+        padding: 0 2rem;
+    }
+    
+    .columns {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .copyright {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}
+
+
+

@@ -83,3 +83,51 @@
 }
 
 
+@media (max-width: 768px) {
+    .contactContent {
+        width: 100%;
+        padding: 0 2rem;
+    }
+    
+
+    .button1,
+    .button2 {
+        width: 100%;
+        padding: 15px 30px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactText {
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .contactText h1 {
+        font-size: 4rem;
+    }
+
+    .buttonSpace {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .button1,
+    .button2 {
+        width: 100%;
+        padding: 15px 30px;
+        font-size: 1rem;
+    }
+
+}
+
+
