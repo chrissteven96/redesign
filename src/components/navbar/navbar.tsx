@@ -78,7 +78,7 @@ const NavBar = () => {
                     {/*logo*/}
                     <div className={styles.logo}>
                         <a href="#hero" onClick={(e) => { e.preventDefault(); scrollToSection('hero'); }}>
-                            <img src="/log_redesign.png" alt="Logo" className={styles.logoImage}/>
+                            <img src="/logo_bar.png" alt="Logo" className={styles.logoImage}/>
                         </a>
                     </div>
                     {/*Menu*/}

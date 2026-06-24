@@ -14,11 +14,11 @@ const Hero = () => {
                     <div className={styles.heroTextItem}>
                         <span className={styles.heroTextSpan}>Hacemos que <br/>
                             tu marca <br/>
-                            <span className={styles.heroTextRed}>grite <br/></span>
-                            en la calle</span>
+                            <span className={styles.heroTextRed}>destaque <br/></span>
+                            en todos lados</span>
                     </div>
                     <div className={styles.heroTextItem}>
-                        <p className={styles.heroTextSpanDown}>RE Design es rotulación y publicidad con trayectoria. Personal capacitado, materiales premium y maquinaria de última tecnología al servicio de tu marca.</p>
+                        <p className={styles.heroTextSpanDown}>R2A es rotulación y publicidad con trayectoria. Personal capacitado, materiales premium y maquinaria de última tecnología al servicio de tu marca.</p>
                     </div>
                     <div className={styles.heroTextItem}>
                         <div className={styles.buttonSpace}>

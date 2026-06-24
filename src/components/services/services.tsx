@@ -20,7 +20,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/diseño1.png" alt="Diseño Gráfico" className={styles.serviceCardPhoto} />
+                            <img src="/diseno.jpeg" alt="Diseño Gráfico" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Diseño Gráfico</h3>
                                 <p>Asesoramiento 100% personalizado.</p>
@@ -31,7 +31,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/gigan1.png" alt="Gigan" className={styles.serviceCardPhoto} />
+                            <img src="/gigan.jpeg" alt="Gigan" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Gigantografía</h3>
                                 <p>Lona, vinil, microperforada y más.</p>
@@ -42,7 +42,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/rotulo.png" alt="Rótulos" className={styles.serviceCardPhoto} />
+                            <img src="/rotulo.jpeg" alt="Rótulos" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Rótulos</h3>
                                 <p>Bastidores, cajas de luz, rótulos 3D.</p>
@@ -54,7 +54,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/neon.png" alt="Neon" className={styles.serviceCardPhoto} />
+                            <img src="/neon.jpeg" alt="Neón" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Rótulos neón flex</h3>
                                 <p>Iluminación de alto impacto.</p>
@@ -65,7 +65,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/display.png" alt="Display" className={styles.serviceCardPhoto} />
+                            <img src="/display.jpeg" alt="Display" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Display</h3>
                                 <p>Roll Up, stands, backings.</p>
@@ -76,7 +76,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/señal.png" alt="Rótulos" className={styles.serviceCardPhoto} />
+                            <img src="/senaletica.jpeg" alt="Señalética" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Señalética</h3>
                                 <p>Sintra, tool, acrílico y vidrio</p>
@@ -87,7 +87,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/imprenta.png" alt="Neon" className={styles.serviceCardPhoto} />
+                            <img src="/imprenta.png" alt="Imprenta" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Imprenta</h3>
                                 <p>Tarjetas, volantes, carpetas.</p>
@@ -98,7 +98,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/branding.png" alt="Display" className={styles.serviceCardPhoto} />
+                            <img src="/branding.jpg" alt="Branding Vehicular" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Branding Vehicular</h3>
                                 <p>Autos, motos, camiones.</p>
@@ -109,7 +109,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/inflable.png" alt="Rótulos" className={styles.serviceCardPhoto} />
+                            <img src="/inflable.jpeg" alt="Inflables" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Inflables</h3>
                                 <p>Llamadores, botargas, arcos, carpas</p>
@@ -142,7 +142,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/sublimacion.png" alt="Rótulos" className={styles.serviceCardPhoto} />
+                            <img src="/sublimacion.jpeg" alt="Sublimación" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Sublimación</h3>
                                 <p>Tazas,camisetas, llaveros, pulseras, etc</p>
@@ -153,9 +153,9 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/dron.png" alt="Rótulos" className={styles.serviceCardPhoto} />
+                            <img src="/dron.jpeg" alt="Filmación con dron y gimbal" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
-                                <h3>Filmacion con dron y gimbal</h3>
+                                <h3>Filmación con dron y gimbal</h3>
                                 <p>Tomas aereas profesionales.</p>
                             </div>
                         </div>

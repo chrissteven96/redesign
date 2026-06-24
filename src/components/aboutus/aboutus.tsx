@@ -8,8 +8,8 @@ const AboutUs = () => {
         <div className={styles.aboutUs}>
             <div className={styles.aboutUsContent}>
                 <div className={styles.textContent}>
-                    <h1>Más de una década<br />haciendo ruido <span>visual</span></h1>
-                    <p><span>RE Design</span> nació con un objetivo claro: brindarles verdaderas soluciones publicitarias a nuestros clientes, mediante trabajos ágiles y de calidad.
+                    <h1>Más de una década<br />haciendo <span>publicidad</span></h1>
+                    <p><span>R2A</span> nació con un objetivo claro: brindarles verdaderas soluciones publicitarias a nuestros clientes, mediante trabajos ágiles y de calidad.
                     <br /> <br />
                     Contamos con personal capacitado dispuesto a resolver todas sus inquietudes, materiales de calidad y maquinaria de última tecnología.</p>
                 </div>
