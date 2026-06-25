@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
                     <div className={styles.column}>
                         <h3>Ubicación</h3>
-                        <p> <FaMapMarkerAlt /> Carapungo: Rumiñahui & Sagaloa n15 222 (Una cuadra detrás del Pollo Gus)</p>
+                        <p> <FaMapMarkerAlt /> Carapungo: Rumiñahui & Sagaloa Nº 15-222 (Una cuadra detrás del Pollo Gus)</p>
                     </div>
                 </div>
                 <div className={styles.divider}></div>

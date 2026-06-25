@@ -145,7 +145,7 @@ const Services = () => {
                             <img src="/sublimacion.jpeg" alt="Sublimación" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Sublimación</h3>
-                                <p>Tazas,camisetas, llaveros, pulseras, etc</p>
+                                <p>Tazas, camisetas, llaveros, pulseras, etc.</p>
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@ const Services = () => {
                             <img src="/dron.jpeg" alt="Filmación con dron y gimbal" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Filmación con dron y gimbal</h3>
-                                <p>Tomas aereas profesionales.</p>
+                                <p>Tomas aéreas profesionales.</p>
                             </div>
                         </div>
                     </div>
