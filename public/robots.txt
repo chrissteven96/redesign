@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://r2apublicidad.com/sitemap.xml
