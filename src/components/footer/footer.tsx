@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./footer.module.css"
-import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa"
+import { FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa"
 
 const Footer = () => {
     return (
@@ -14,12 +14,12 @@ const Footer = () => {
                     </div>
                     <div className={styles.column}>
                         <h3>Contacto</h3>
-                        <p> <FaPhone />096 272 5180</p>
-                        <p> <FaEnvelope /> r2apublicidad@hotmail.com</p>
+                        <p> <FaWhatsapp size={20} /> 096 272 5180</p>
+                        <p> <FaEnvelope size={20} /> r2apublicidad@hotmail.com</p>
                     </div>
                     <div className={styles.column}>
                         <h3>Ubicación</h3>
-                        <p> <FaMapMarkerAlt /> Carapungo: Rumiñahui & Sagaloa Nº 15-222 (Una cuadra detrás del Pollo Gus)</p>
+                        <p> <FaMapMarkerAlt size={30} /> Carapungo: Rumiñahui & Sagaloa Nº 15-222 (Una cuadra detrás del Pollo Gus)</p>
                     </div>
                 </div>
                 <div className={styles.divider}></div>
