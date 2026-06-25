@@ -14,7 +14,7 @@ const AboutUs = () => {
                     Contamos con personal capacitado dispuesto a resolver todas sus inquietudes, materiales de calidad y maquinaria de última tecnología.</p>
                 </div>
                 <div className={styles.gridContent}>
-                    <div className={styles.gridItem}><span>10+</span> <br />años de trayectoria</div>
+                    <div className={styles.gridItem}><span>12+</span> <br />años de trayectoria</div>
                     <div className={styles.gridItem}><span>13</span> <br />servicios integrales</div>
                     <div className={styles.gridItem}><span>100%</span> <br />asesoría personalizada</div>
                     <div className={styles.gridItem}><span>1</span> <br />solo lugar para todo</div>

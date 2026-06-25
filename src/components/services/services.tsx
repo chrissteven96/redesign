@@ -87,7 +87,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/imprenta.png" alt="Imprenta" className={styles.serviceCardPhoto} />
+                            <img src="/imprenta.jpg" alt="Imprenta" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Imprenta</h3>
                                 <p>Tarjetas, volantes, carpetas.</p>
@@ -120,7 +120,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/carpas.png" alt="Neon" className={styles.serviceCardPhoto} />
+                            <img src="/carpas.jpeg" alt="Neon" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Carpas y banderines</h3>
                                 <p>Material publicitario para eventos.</p>
@@ -131,7 +131,7 @@ const Services = () => {
                     <div className={styles.serviceCard}>
                         <div className={styles.serviceCardImg}>
                             <div className={styles.serviceCardOverlay}></div>
-                            <img src="/ruleta.png" alt="Display" className={styles.serviceCardPhoto} />
+                            <img src="/ruletas.jpeg" alt="Display" className={styles.serviceCardPhoto} />
                             <div className={styles.serviceCardText}>
                                 <h3>Ruletas publicitarias</h3>
                                 <p>En pvc o en acrílico.</p>

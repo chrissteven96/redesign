@@ -9,13 +9,13 @@ const Hero = () => {
                 <div className={styles.heroContent}>
                    <div className={styles.heroText}>
                     <div className={styles.heroTextItem}>
-                        <span className={styles.heroTextSpanMin}>+10 años haciendo marcas visibles</span>
+                        <span className={styles.heroTextSpanMin}>+12 años haciendo marcas visibles</span>
                     </div>
                     <div className={styles.heroTextItem}>
                         <span className={styles.heroTextSpan}>Hacemos que <br/>
                             tu marca <br/>
                             <span className={styles.heroTextRed}>destaque <br/></span>
-                            en todos lados</span>
+                            en todo lado</span>
                     </div>
                     <div className={styles.heroTextItem}>
                         <p className={styles.heroTextSpanDown}>R2A es rotulación y publicidad con trayectoria. Personal capacitado, materiales premium y maquinaria de última tecnología al servicio de tu marca.</p>
@@ -37,15 +37,15 @@ const Hero = () => {
                             <FaTiktok className={styles.socialIcon} />
                         </a>
                         {/* <FaInstagram className={styles.socialIcon} /> */}
-                        <a href="https://wa.me/593962725180?text=Hola%20RE%20Design%20quiero%20cotizar%20uno%20de%20sus%20servicios" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/593962725180?text=Hola%20R2A%20Publicidad%20quiero%20cotizar%20uno%20de%20sus%20servicios" target="_blank" rel="noopener noreferrer">
                             <FaWhatsapp className={styles.socialIcon} />
                         </a>
-                        <a href="https://t.me/redesignarg" target="_blank" rel="noopener noreferrer">
+                        {/* <a href="https://t.me/redesignarg" target="_blank" rel="noopener noreferrer">
                             <FaTelegram className={styles.socialIcon} />
-                        </a>
-                        <a href="https://www.linkedin.com/company/redesignarg" target="_blank" rel="noopener noreferrer">
+                        </a> */}
+                        {/* <a href="https://www.linkedin.com/company/redesignarg" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin className={styles.socialIcon} />
-                        </a>
+                        </a> */}
                     </div>
                    </div>
                 </div>
