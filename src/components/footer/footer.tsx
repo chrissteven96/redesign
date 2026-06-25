@@ -14,7 +14,7 @@ const Footer = () => {
                     </div>
                     <div className={styles.column}>
                         <h3>Contacto</h3>
-                        <p> <FaPhone />0962725180</p>
+                        <p> <FaPhone />096 272 5180</p>
                         <p> <FaEnvelope /> r2apublicidad@hotmail.com</p>
                     </div>
                     <div className={styles.column}>
